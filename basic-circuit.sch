@@ -1,0 +1,93 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 46200 45400 1 0 0 inamp-1.sym
+{
+T 46950 46900 5 10 0 0 0 0 1
+device=OPAMP
+T 47200 46700 5 10 1 1 0 6 1
+refdes=U?
+T 46950 47500 5 10 0 0 0 0 1
+footprint=DIP8
+T 46950 47100 5 10 0 0 0 0 1
+symversion=1.0
+}
+C 42300 45800 1 0 0 connector2-1.sym
+{
+T 42500 46800 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 42300 46600 5 10 1 1 0 0 1
+refdes=CONN?
+T 42300 45800 5 10 0 0 0 0 1
+footprint=HEADER2_1
+}
+C 44800 49700 1 0 0 vcc-2.sym
+C 44700 47400 1 0 0 vcc-minus-1.sym
+C 45900 48400 1 0 0 gnd-1.sym
+C 44400 44000 1 0 0 gnd-1.sym
+C 48000 42900 1 0 0 gnd-1.sym
+C 46500 47000 1 0 0 vcc-2.sym
+C 46400 44500 1 0 0 vcc-minus-1.sym
+C 44600 46200 1 0 0 resistor-1.sym
+{
+T 44900 46600 5 10 0 0 0 0 1
+device=RESISTOR
+T 44800 46500 5 10 1 1 0 0 1
+refdes=R?
+T 44600 46200 5 10 0 1 0 0 1
+footprint=0805
+}
+C 44600 44600 1 90 0 resistor-1.sym
+{
+T 44200 44900 5 10 0 0 90 0 1
+device=RESISTOR
+T 44300 44800 5 10 1 1 90 0 1
+refdes=R?
+T 44600 44600 5 10 0 1 90 0 1
+footprint=0805
+}
+C 48400 46000 1 0 0 resistor-1.sym
+{
+T 48700 46400 5 10 0 0 0 0 1
+device=RESISTOR
+T 48600 46300 5 10 1 1 0 0 1
+refdes=R?
+T 48400 46000 5 10 0 1 0 0 1
+footprint=0805
+}
+C 48200 44700 1 90 0 resistor-1.sym
+{
+T 47800 45000 5 10 0 0 90 0 1
+device=RESISTOR
+T 47900 44900 5 10 1 1 90 0 1
+refdes=R?
+T 48200 44700 5 10 0 1 90 0 1
+footprint=0805
+}
+C 48200 43600 1 90 0 resistor-1.sym
+{
+T 47800 43900 5 10 0 0 90 0 1
+device=RESISTOR
+T 47900 43800 5 10 1 1 90 0 1
+refdes=R?
+T 48200 43600 5 10 0 1 90 0 1
+footprint=0805
+}
+C 50400 46600 1 180 0 MCX-1.sym
+{
+T 50400 45250 5 10 0 0 180 0 1
+device=MCX
+T 50400 45800 5 10 1 1 180 0 1
+refdes=J?
+T 50400 46600 5 10 0 0 180 0 1
+netname=BNC_LAY
+}
+C 42800 48200 1 0 0 connector4-1.sym
+{
+T 44600 49100 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 42800 49600 5 10 1 1 0 0 1
+refdes=CONN?
+T 42800 48200 5 10 0 0 0 0 1
+footprint=HEADER4_1
+}
+C 51000 46300 1 0 0 gnd-1.sym
