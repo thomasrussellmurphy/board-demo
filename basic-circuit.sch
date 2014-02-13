@@ -79,7 +79,7 @@ device=MCX
 T 50400 45800 5 10 1 1 180 0 1
 refdes=J1
 T 50400 46600 5 10 0 0 180 0 1
-netname=BNC_LAY
+footprint=BNC_LAY
 }
 C 42800 48200 1 0 0 connector4-1.sym
 {
